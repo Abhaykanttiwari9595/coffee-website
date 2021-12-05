@@ -29,6 +29,7 @@
 
 .nav-section {
     border-bottom: 0.5px solid gray;
+    /* position: fixed; */
 }
 
 .shop-bar button {
@@ -61,6 +62,43 @@
 
 .nav-bg {
     font-size: 15px;
+}
+
+
+/* about  */
+
+.about-text h2 {
+    padding: 15px 0 0 25px;
+    text-shadow: #c6c6cc;
+}
+
+.about-text p {
+    padding: 15px 0 0 25px;
+}
+
+.about-section {
+    background-color: black;
+}
+
+.about-second-row div:nth-child(2) {
+    background-color: #13131A;
+}
+
+
+/* menu */
+
+.menu-section {
+    background-color: black;
+}
+
+.card {
+    background-color: black;
+    border: 1px solid white;
+    /* margin-left: 10px; */
+}
+
+.menu-second-row {
+    margin-top: 30px;
 }
 
 @media (max-width: 575.98px) {
@@ -101,7 +139,7 @@
         position: fixed;
         width: 50%;
         height: 100vh;
-        background-color: white;
+        background-color: rgb(156, 115, 115);
         top: 105px;
         left: 0px;
         text-align: center;
@@ -132,14 +170,11 @@
     .nav-bg {
         font-size: 15px;
     }
-    .bg-img-section img {
-        height: 500px;
-    }
     ul {
         position: fixed;
         width: 50%;
         height: 100vh;
-        background-color: white;
+        background-color: rgb(119, 67, 67);
         top: 105px;
         left: 0px;
         text-align: center;

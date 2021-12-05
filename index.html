@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="index.css">
     <title>Hello, world!</title>
     <script src="https://use.fontawesome.com/bbc7ac2d89.js"></script>
+
 </head>
 
-<body>
+<body onscroll="myfunction()">
     <section class="nav-section">
         <nav class="navbar navbar-expand-md navbar-dark">
             <a class="navbar-brand pl-md-5" href="#"><img src="images/logo.png" alt="" srcset=""></a>
@@ -25,7 +26,7 @@
             <i class="fa fa-bars text-white"></i>
           </button>
             </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse fix navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto pr-md-5">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Home </a>
@@ -68,15 +69,113 @@
         </div>
     </section>
 
+    <!-- About US -->
+
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col  text-center p-4 ">
+                    <h1>ABOUT <span style="color: aqua;">US</span></h1>
+                </div>
+            </div>
+            <div class="row about-second-row">
+                <div class="col-md-6 pr-0 pl-0"><img src="images/about-img.jpeg" class="img-fluid"></div>
+                <div class="col-md-6  pl-sm-0 about-text">
+                    <h2>What Makes Our Coffee Special?</h2>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Voluptatibus Qui Ea Ullam, Enim Tempora Ipsum Fuga Alias Quae Ratione A Officiis Id Temporibus Autem? Quod Nemo Facilis Cupiditate.<br><br> Ex, Vel? Lorem Ipsum Dolor Sit Amet
+                        Consectetur, Adipisicing Elit. Odit Amet Enim Quod Veritatis, Nihil Voluptas Culpa! Neque Consectetur Obcaecati Sapiente?</p>
+                    <button type="button" class="btn  btn-lg ml-4">Large button</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our Menu -->
+
+    <section class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center p-4 ">
+                    <h1>OUR <span style="color: blue;">MENU</span></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card-deck text-center">
+                        <div class="card">
+                            <img class="mx-auto pt-5" src="images/menu-1.png" style="width: 100px;" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="mx-auto pt-5" src="images/menu-1.png" style="width: 100px;" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="mx-auto pt-5" src="images/menu-1.png" style="width: 100px;" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-second-row">
+                <div class="col">
+                    <div class="card-deck text-center ">
+                        <div class="card ">
+                            <img class="mx-auto pt-5" src="images/menu-1.png" style="width: 100px;" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="mx-auto pt-5" src="images/menu-1.png" style="width: 100px;" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="mx-auto pt-5" src="images/menu-1.png" style="width: 100px;" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- javascript -->
+
+
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF " crossorigin="anonymous "></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js " integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2 " crossorigin="anonymous "></script>
     -->
 </body>
 
