@@ -93,13 +93,43 @@
 
 .card {
     background-color: black;
-    border: 1px solid white;
-    /* margin-left: 10px; */
+    border: 1px solid #D3AD7F;
 }
 
 .menu-second-row {
     margin-top: 30px;
 }
+
+.menu-card:hover.card {
+    background-color: white;
+}
+
+.menu-card:hover div h4 {
+    color: #13131A;
+}
+
+.menu-card:hover div h3 {
+    color: #13131A;
+}
+
+.menu-card:hover div h3 span,
+.menu-card:hover div h3 span h5 {
+    color: #13131A;
+}
+
+
+/* products-section */
+
+.products-section {
+    background-color: black;
+}
+
+.product-second-row img {
+    margin: 15px 0 100px 80px;
+}
+
+
+/* Media Query */
 
 @media (max-width: 575.98px) {
     .bg-img-text {
@@ -119,7 +149,7 @@
         text-align: center;
     }
     .btn {
-        background-color: blanchedalmond;
+        background-color: #D3AD7F;
     }
     .bg-img-section img {
         height: 500px;
