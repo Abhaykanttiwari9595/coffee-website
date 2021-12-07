@@ -125,7 +125,58 @@
 }
 
 .product-second-row img {
-    margin: 15px 0 100px 80px;
+    /* margin: 25px 0 100px 80px; */
+    margin-left: 100px;
+}
+
+
+/* customer-review */
+
+.customer-review-section {
+    background-color: black;
+}
+
+.cust-rew-sect-sec-div img {
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+
+/* contact-section */
+
+.contact-section {
+    background-color: black;
+}
+
+form h1 {
+    /* margin-left: 25px; */
+}
+
+
+/* blog section */
+
+.blog-section {
+    background-color: black;
+}
+
+.blog-image:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+    transition: 0.5s linear;
+}
+
+
+/* footer-section */
+
+.footer-section {
+    background-color: #13131A;
+}
+
+.footer-section ul li a {
+    border: 1px solid gray;
+    margin-left: 10px;
+    color: white;
+    font-weight: 500;
 }
 
 
